@@ -1,0 +1,948 @@
+A whole network, which makes a whole visual reputation of your agent.
+There's nothing wrong with that one.
+It's crazy.
+For me, I still haven't made any workflows or my, like, you're saying like a project,
+but you just give it, like, when it's a prompt and it does everything.
+Kinda.
+But, like, for me, the clothes that come to that is, there's like a ticket or something that comes in,
+and I tell it to make a plan and everything, and then it executes.
+The thing is, is that ticket and the plan is different.
+A plan is you have your whole standard way of doing a project.
+And if you do deep research, for example, it's from, okay, hey, you do blah, blah, blah, your prompt,
+and then it says, okay, do you want like this or that, whatever, you get to a conversation of feedback loop.
+And that whole feedback loop, that back and forth, that is what you're playing with your AI.
+That is where your conversation is.
+That is how you get things straight.
+And then you start making your initial, how to say, maybe it's a small thing to make it easy to do.
+Maybe it's a more complicated one.
+So you start working, prototype, individual blocks, you start working out.
+And you start, you know, hey, is this what we want?
+You know, but I wouldn't go for too long projects now.
+You want first learning how to make a project automatically, and when you can make them very fast,
+then you can, okay, now make a bigger project, but do it very fast.
+So you're not losing your time on that long project, but you're ultimately at that moment.
+Even though you can make projects that initially are okay already, and then later on you revisit them,
+but automatically do actually what I made also for all the other ones.
+Like a whole set of features.
+But, yeah, definitely still need to learn how to make it work with real agents that do everything on their own.
+They are working on it.
+They are figuring out how to set things up all together.
+How to say, we're getting them.
+The thing is, by practicing, you're ready to do those type of things when they are coming available.
+You have your product chain already worked out, you have already your expertise.
+Yeah, maybe things aren't even going fast.
+Who cares?
+That's what you want.
+It's like, you know, you have your race car driver, and you're in those old ones, you know, with two wheels in the back and one in the front,
+you know, the old, old cars with black and white movies, more or less.
+Then you come out with a new Ferrari, and it's like, yeah, but I've been training on this one.
+You're faster.
+Come on, train.
+Okay, let's use a Ferrari.
+You know, you're complaining about it, you've got something way better.
+Okay.
+Nice.
+And especially those look where things go wrong, you know, that's what you want to have.
+This is just Wi-Fi issues.
+Yeah, yeah, okay.
+You know, if you have things going wrong in your agents, that is what you want.
+That is the most important information.
+The one that go okay, great.
+The one that go wrong, that's the one that you should cherish the most.
+Those ones you start off with, hey, why did it go wrong?
+You know, why did it take two runs to get to the right results?
+Why have so much rejections on it, or why so much corrections on it?
+The most of the time is your specifications are not being like that.
+One thing that I want to also implement, but I'm not sure about things the boss would like,
+because currently we have a DBA, or kind of DBA, I think it is the rule,
+that is analyzing the Jira tickets from the clients and putting our Jira tickets in our Azure DevOps
+and kind of writing the tickets and kind of understanding the business logic in between it.
+Yeah.
+But I'm pretty sure that you can just extract the whole Jira and based on the Jira,
+analyze it and make better details.
+Well, you can do one, if he works like that,
+give me all the database tickets with SQL code in it, SQL commands in it.
+So that will then you will have...
+Because the information that I think we have available are the Jira tickets,
+the comments on the Jira tickets, the attachments to the Jira tickets and the taxes.
+Do you have the data model or not?
+The what?
+The database model.
+That is the definition of the database, all the tables, the fields.
+I'm not sure, but we have access to the database to ask the questions.
+Yeah.
+What you want is you want to get an O, always SQL server or not?
+It's Oracle also...
+There are, how do you say, there are functionalities to run on the database,
+to get all the indexes, all the...
+How do you say?
+You can make one query, a few queries and you can create your own database model,
+automatically more or less.
+And how do you say?
+I was looking into that one and how I can do that one and how I can then,
+based on that one, create the...
+There is some document format for models.
+So it's an ASCII format, but it describes the database model.
+You extract the database model and then you generate, based on that data, that model.
+Maybe there's tooling to use for that one that works better.
+I don't know, but I was investigating the network.
+Because with that one, you can then check your database model.
+How do you say you extract your database model?
+You check it against your reference data.
+Does it match on that one?
+But that one you do automatically, diffing whatsoever.
+And you also, you extract, based on the database,
+how is the relationship between different objects and whatsoever,
+which have, ultimately, the leads and whatever,
+which have procedures and whatever.
+What are they doing?
+You can do a full analysis on the database like that.
+And not just the analysis, but also the documentation.
+How is the database?
+You will have better documentation than the DBA has.
+Just automatically generate it.
+And do that according to format, blah, blah, blah, blah, blah.
+Find out online what is the best format to do those things.
+Create the right rules.
+So you would suggest to have our own file that explains how the whole database structure
+and everything else from the client is?
+Yeah.
+You said the standard functionality to export the data in a standard format.
+Something that is like the information of the client's database,
+that with the whole JIRA and together make really detailed, good tickets to work on.
+How do you say I wouldn't do that one?
+I would just extract that database information.
+And if you have tickets related to it, you could reference it,
+or especially if there are changes on the database model, what happens?
+But that is more historical data.
+And although it could be useful, that reference to that history you shouldn't put in the code,
+that is what I put in the ticket.
+So I would then, if you want to then, create a ticket,
+reference to the database table and whatsoever.
+Have you taken a confluence for us?
+Have an internal document...
+Yeah, explaining all of the client structure and everything.
+Yeah, or what the changes were for that ticket, what the changes were for this ticket and whatsoever.
+So you have the history for that project on that database.
+You have that history.
+Because you want to have it with your ticket, because if later on you have a change and whatsoever,
+you want it to detect that there was another change on that same table,
+that was the cause of it and whatsoever.
+You want to reference back in your codes.
+You want to have your documentation in your codes, your tickets and whatsoever.
+You don't want to have in your codes,
+this ticket, blah, blah, blah, blah.
+No, you said you just have a ticket number,
+but the ticket number has done your whole conversation, blah, blah, blah, blah, blah.
+Then let that change.
+There's no problem having a code or whatever in your...
+as part of a description.
+Just a quick reference, an AI will pick it up, will find it.
+And you want to have it in your codes and not in Jira.
+You can have in Jira, you can have everything whatsoever,
+but you want to have that base information really in your project.
+And if database problems have a little big problem,
+make sure that all the tickets that are related to database are just exported from Jira
+and then just a recap of it, include it on it.
+That should be enough.
+You should not include...
+You do not need to include everything.
+Recap now.
+Call the Jira tickets into database and then from database.
+What are some other things that you think that would be useful
+for the boss slash for you slash for him
+that are like general for most businesses that we could do with AI?
+How do you say, the really value...
+How do you say, the problem for most projects is they are badly or not documented.
+Most of the time not documented.
+Which gives a big problem for companies, especially for when people leave.
+Or how do you say, or I'm not fired because they are not documented,
+the code or whatsoever, you know.
+Now, how do you say that documentation can be more or less like,
+how do you say, ultimately generated.
+You can create...
+The AI can become an expert on itself for a specific project, you know.
+That project has its own AI that knows your stickers, everything.
+All that you can export and insert.
+How do you say, in principle, how do you say every gift ticket can be analyzed.
+How do you say, we have like a DBA project.
+Completely independent of the C sharp codes.
+And you use the same methodology and everything just works.
+You can just ask when did one change happen or whatever.
+The project not about the tickets, the tickets are more or less their own AI.
+The code is it's own AI.
+Everything is AI.
+And then depending on your rule, it's the perspective that you have on it.
+But how do you say your question was about...
+How do you say existing documentation is most of the time...
+And then the second one, documentation is first.
+But after you create documentation, you can sharpen your documentation
+by doing the review process.
+What is it not in sync?
+You can make unit tests based on it.
+You can run it again in the existing code whatsoever.
+All those things you can do.
+And after you have done that one, you can answer, okay, now we migrate.
+Because now you have your unit test.
+Now you can confirm that the new code is better.
+And then it's better maintainable, better documented.
+Blah, blah, blah.
+Migration of all shit, that is the standard problem from many, many, many companies.
+And now with AI, okay, I teach you how the AI works.
+I teach you how you can improve the quality from your code.
+And also, hey, if you want, now you can migrate to any platform you want.
+You want to upgrade to the new, what you always want to do but never could.
+Let us help you do so.
+And we're not doing that migration.
+No, we are teaching you how to do so.
+Because we need also to teach all the other companies.
+I think I have to set up also.
+I was just thinking for also the other AIs for random meetings and stuff.
+Because none of that is set up either still.
+So did that?
+The AIs for meetings to transcribe and take notes.
+Yeah, exactly.
+All those, so that are the other things.
+And that is you, dude.
+I was telling to Ale, yes, there is no easier way to automate than the management layer.
+I want to add more things to help.
+Because our DBA, I think she's really great.
+But I think she might get a bit lost and frustrated sometimes.
+And she's also a bit on the other side.
+So it would be really great to help her with the AI stuff.
+Because she might be a bit lost.
+Like she's asking me also now for some help with something for representation for tomorrow.
+And do so, help out and adjust.
+Be helpful, it shows.
+That's how you want to do it.
+You don't want, don't force it if people are pushing back.
+Let them, the boss is also really pushing into AI.
+But I just find it hard to think about possible issues or things where it could be helpful for her.
+How do you say, as I said, we having all our database changes are also going through Jira.
+And by having all those tickets together with our database scripts and everything,
+that is already, how do you say, so useful.
+Because now I can talk to the coach.
+Hey, when did what...
+This is using the same methodology that I taught you.
+Because I definitely think that I will be doing a beautiful masterclass when I'm in Canada.
+Showing everybody how to use it, yeah.
+If, you know, from, hey, great how you're doing things, but, you know, this is how I would do it with AI.
+And then, you know, and ask them also the permission, you know, can I show you how I would do it with AI.
+I'm not telling you do it like this, it's from, this is, you know, how I would do it.
+Maybe there are better approaches, we'll figure it out.
+We just wanted to show you how to do it.
+Of how you can do it, not how you should do it.
+You know, learn the right languages, train also yourself about things, very important.
+The things that I want to be there, and be like, we can do these things.
+To see what the bot, like, I already have most of them prepared, if possible.
+And if not, which one would he be more interested in.
+Because then I make it there, and then I can pass it to you, slash, whatever else.
+Because those things can be copy-paste.
+It is, but how do you say, it's also the refinement, and also when you are using it, you will find sometimes, hey, it's not picking it.
+It's missing this.
+That fine tuning, that is where your time is in. It's not those initial rules that are easy to make.
+It's making sure that the right rules are applied at the right moments.
+But here you have like, you can have two edges, or you can have multiple ones.
+You can have as many terminals as you want.
+You can be working on, like, if you're working on one feature in one place, in one branch.
+You can move around a new scene, but probably also with Cursor, that you can just open.
+Yeah, yeah, you can have both.
+The thing is, with Cursor, you can do that.
+You can load your next conversation, but you cannot run them in part.
+I didn't try it, but to have them separate.
+What you would get, however, is that you, when you're accepting things as well, from where you stand.
+And it's like a recent functionality, because recently I gave Cursor a question.
+I started working on it, and then I launched a new window, and the previous one kept working.
+And he has like agents.
+Yeah, I always say, it's a cool feature, but it's like, how do you say it?
+Actually, I don't even want to know what they're doing.
+It's like, you know, everything goes automatically.
+That is what you're wanting to do.
+This is just a training session of your agents, and that one you'd rather do one by one.
+Why would you run that?
+I like that this one was able to set itself up better for me, than Cursor, when I asked it to do some stuff.
+Yeah, yeah, no, but how do you say it?
+But the thing is, the parallelization is something, how do you say it?
+For me, the Cursor AI is the configuration environment.
+It's not the coding environment, it's the configuration environment.
+And why, while configuring it, do I need to have multiple ones running at the same moment?
+It's just a distraction.
+Yes, I want to have an environment where I have multiple agents, like I have a hundred agents running at the same moment.
+But it's a different way on how I want to interact with them.
+I just want to have them running and whatsoever being there to run to.
+And if actually five jobs come in, then it spawns into five, and it does all five at the same moment.
+I actually don't care how it does so.
+You know, it's good that you have like a checkbox that you can set, okay, run parallel, match three, whatever, you know.
+I don't know what that should be.
+But I'm already expecting that they automate, that they are, how do you say, parallel, and that they auto-scale on demand.
+That is, how do you say that is the most efficient, production-ready way on using agents?
+I'm sure they will train on anything.
+Like, they are definitely training on course or...
+Yeah, how do you say, it's learning from, the whole feedback from people.
+The $100 per day with the daily weekend?
+No, they...
+At once, he's six minutes hungry?
+No, he's six minutes hungry.
+But I feel like I'm paying for 5x the amount of...
+Yeah.
+That's good, you know, but running to the limit.
+I know, but that's like perfect. I'm getting worth it.
+Soon, you're going to pay a thousand, and you're happily paying a thousand.
+No, I'm telling you.
+I know, I'm also telling you, I'm happily paying a hundred for this fucking chip.
+Yeah.
+I do not have to work today.
+Yeah, hey.
+Yeah, how do you say, especially if you're paying yourself part of that cost, hey, feel free to count a bit of it as, how do you say, payment for free time.
+Yes.
+That's what I consider it.
+That means it's a cheap scale estate, and they would have paid the full license themselves, you know?
+Well, definitely it's really, really amazing.
+But, yeah, in the core, they are pretty much the same. I just like to work with the terminal a bit more. It's, for me, at least nicer.
+Yeah, I always hated the terminal. But the thing is, nowadays, with AI, it's so much easier to work with the terminal because, hey, you can just actually speed you up to run this.
+Okay, yeah.
+I see the other one, but because, you know, remembering in Cursor, you have to press the enter for when it's laggy or with all those other bullshit.
+Yeah, I heard you say, I had sometimes that it worked, but I didn't have much problems with it.
+For me, it happened a bit frequently because we have to run lots of terminal commands.
+And because for the other bricks, log in, whatever, or all of the files creation, move new, whatever, bullshit, it's like moving the files one at a time.
+But that has been really my problem. And most of the times, our running is, yeah, how you say, separate environment again, blah, blah, blah.
+So I, as I said, I have a tool chain set up around this, and it is just working. And as far as I can say, I need to take a look at that.
+But the spec story type functionality is really important. Easy commit to git, very important, but that probably has it anyway.
+How do you say, and then the, how do you say, find rate rule files is important. I'm not sure if that one, it doesn't have it yet, it probably will have it.
+But, you know, that is why, you know, you know, you're complaining about something that didn't exist half a year ago, you know.
+And if you were going to present for H21, like a quick workshop on how to use cursor, what would you be saying or what were the, what would be the parts of the station?
+Sorry, you were talking to me?
+Yeah, like when you're going to the Netherlands now, you're probably going to be talking about course or how to use it, how to use AI.
+If I go with Bobi, because he ever just, you know, you could be there, which I think you go.
+How do you say he's from the other team? How do you say that came, there was a company that actually was running very, how do you say, they had a very, how do you say, very good portfolio, very high pay, I'd say very good paying clientele.
+The problem that they had, they were a very small team, and big companies spending a lot of money, they don't like small teams, you know, redundancy, blah, blah, blah.
+So they went out together with, they went to, I want to thank one, yeah.
+They did the HRSA management when they went to together. Now my idea is to tell him from, hey, I will come, I will teach HRSA because the protocol team is a little bit more skeptical.
+And he was like one of his, how do you say, his colleague and was, you know, getting started to get AI, you know.
+I don't know yet the level, that's why I need to talk with him before.
+But, hey, you have the project, the idea is to integrate some part of it with the current system.
+That one is written in Java, ours is in, it's migrating to C sharp, C sharp is intended direction.
+How can we do to, how do you say, level up? I don't know shit about it.
+I'm going to teach you how to use AI with it. And in the meantime, you teach me how the code works, and let's then take a look on how we can migrate it.
+What is needed to migrate it, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah.
+But, yeah, I have to say, we need to go in that path more.
+And that would be in person. Sorry? In person.
+Because somehow, that communication communicates way better.
+And it's, you know, it's teaching from what is important for a project, what do we need to update, what we need to work on.
+But it's so easy to make new things. It's so easy.
+Yeah, I will be reviewing this one we got back home.
+Make a surprise PR for the team tomorrow.
+What do you have been up to? Yeah, yes, this.
+But if I want to have like a few ideas and things that we could implement one same in Canada to suggest, because definitely the meeting AI to confluence and also from all of the chats from our teams to like a weekly condensed version of what is important and what happened.
+Recap of the week. You want to create a lot of small agents, don't make them too complicated.
+There are different every week, every hour, whatever. But what kind of agents are you? I mean, this weekend, you're the company.
+Oh, recap of the tickets, this, this, this will close this, this will create, you know, recap.
+Fun, fun email to send around, you know, of course, you would never spend your time on those type of things in the past.
+Why not? Like that, you can have many, many things, you know, that promotes in the team integration, that promotes information sharing.
+I don't know. I mean, but how do you say try to, to the people to integrate in the workflow and what's going on from where the how do you say that the how do you say where development is heading into that this is something that is going to happen?
+Yes, yes, yes, yes, yes, yes, yes, there's no knots.
+And it's from Hey, learn, learn the tool. It's not complicated.
+I just want to blow his mind.
+So it's weird because these other friends, he's way more into machine learning than us.
+Yeah. And he's like, oh, no, no. But he's more like, no, this is too new. It's not trained on this yet. And I'm like, bro, just give me the documentation.
+How do you say it? I talk from experience.
+The thing is, I have a lot of other responsibility, so I cannot spend my time on all these types of things. I am doing so.
+I think it might be burned. I think it might be used already.
+I make OSD from it afterwards. I am putting it in this.
+But this is to show them not what they are doing. Show them all the things that how you said you always wanted to do never had improving documentation.
+And then actually why improving documentation is so important.
+Do you have a small list of those random things that you would like to have for WPG?
+I say I have mentioned many today, so you probably have them in the recordings.
+Yeah, no, perfect. Just if you have any other random things in your mind, because if you probably the thing is, is this moment, the most important one is the one that actually created documentation.
+But that is mainly because I'm working from existing documentation.
+I have noticed that having, how do you say, having good documentation is key on a good AI response.
+So you want to spend the most time on that you have to, if you give me four days to cut the field, I will be three days sharpening the thing.
+That is what you would be doing, is getting your project information correct is the most important thing that there is.
+Then afterwards is getting your rules correct. So having your flows going on.
+So those I would spend the most time on. And on the ticketing, what I'm doing, it's not consistent. The consistency is very important.
+And how do you say, figure out how to get the consistency with examples, templates.
+How do you say if you can have MD files where you say from this reference needs to be included or this file, you know, hey, there is the link, you know, if you want to get there, where do you find it?
+Then document, how do you say your code referring to technicals. I did that in the past. I had in the past, I had my diagrams and technical specification all, how to say, I had it there and I was referencing in my code to the technical specification and in my technical specification sometimes to the codes.
+I had a printed version of that one. It was next to the person that was calling some part of it. Oh, there's no documentation. It's in the fucking code. I mean, it's printed next to your desk is collecting dust. There is no documentation.
+I'm like, how more do you want to have it documented? But the thing is, is now you document for AI and that documentation is key. That is, it's like creating your questions, better understand it.
+You can include the definition if you want to code something or whatever, you know, you can let it decide to include it or you just include it anyway.
+Yeah, how do you say rule, make rules, extracting rules, how best to make rules, what is the best format for rules? I don't know, but definitely there are people that already took a look on that. So learn from them. That would be my advice.
+And then it's just, you know, practice loop, loop, loop, loop, loop, loop, loop, loop, loop.
+And the thing is, because you have your own projects, you create any small idea from websites, how do you say, to services and whatsoever. So before you know it, people are noticing you.
+There are probably scrapers online that check who is the most prolific committer. If you start having a few thousand commits per day, you'll get noticed.
+The first is like, what the fuck? I mean, if you take a look, I mean, I have like 20 times more commit than the next one next to me. And it's not bullshit to me that are just more complex changes than the other guy.
+And besides that, that's what I'm doing. Weighing all the things also still.
+It's not that he is, how do you say, not good and whatsoever.
+You and I are so empowered. And how do you say, I'm running everything still serious. You're running them parallel. And you want to have them even. How do you say, a lot of it what it does, I don't even want to tell it to do it because it knows that it is to do so.
+Take it done. Whatever. Okay. Like right now what I'm doing is telling me to prepare ideas of what to work on next. To make detailed plans of what to work on next. So later I can just tell it, implement this plan.
+Yeah. What is important is that you do a manual review some of the plans.
+Auto executing something that didn't have a review process, especially early on, you want to have your review really important. Later on it's less because they're already like very automated things that have been done already many times.
+So they are like repetitive, but in the beginning part, it is the less repetitive part. You want to review still because if you let it too long go, you go really long direction.
+Like this one. Yeah. And to suggest the project, that's the next topics of what to document. He was suggesting a lot of different things to document from the repository that we have. Like that is building up. It's only the documentation that you mentioned.
+And then based on this, I will ask it later, what things should be improved? What things are, can you put it down and say that it is? Yeah. And the thing is most of the time, you know, at some moment it starts, you know, being, how you say, you need to be more critical.
+And you want to have the code. If you have type of documents being created, you always need to include a template like this is the format that we want to use. Because the better you keep to a certain format, you know, the more straitjacket you actually put on it, the better your AI results are.
+But what I notice sometimes it becomes too, how to say it's too talkative. It creates more than what makes really sense. Yes, you can create all the documentation. Someone would just like, come on, you really think somebody's going to be this one.
+You keep in mind, you always can ask the AI also to get exactly the same information. So the documentation needs not to be for the AI, but needs to have a slightly broader reusable argument. Because otherwise you go into maintenance.
+So hey, if you have something document and then there is some word of conflict and whatsoever, then you know, you don't want conflict.
+That is your how to say, and I noticed that also with the rules that I have on the ticket, I need to refine that. So it creates the same format, the same how to say the same way of happening. And for me, the that whole ticket part that should just run an AI that should not run in the agent.
+So that's that actually is an agent is from, you know, you commit automatically, it runs over copies all the conversations that were necessary because the recaps of it extracts all the close away all the security information.
+That is just from Hey, I can program this is the data. This is the ticket. Do what you need to do commit recap, blah, blah, blah, blah, blah, blah. You don't need to ask an AI to do that. That's a Python program.
+Exactly.
+Exactly.
+But that is automation doesn't work. You know, it's where do you put names? What do you do? What do you do?
+They're all not emptiness in agent, you know, when all when the only tool that you have is an app only from the nails, you know, so now you can do make use where that you can check for your hammer.
+Yeah, exactly. So hey, no way to use to know you when you use it, you know, of course, you want, you probably have like an agent on the top and there are all the agents on below and whatever. So they will be using tools.
+Some of them will use the same tool who cares.
+But yeah, things are cool.
+Now it is.
+Nubias.
+Ah, nice.
+You know how to make them.
+How many do you want?
+I don't have.
+Oh, two, two, two, two.
+That is seven total.
+But how do you say the thing is, maybe, you know, I present something that's fucking fucking easy. No, it's not.
+It's a lot of trial, trial, trial, trial, trial.
+But it will get that.
+It was important. This is an example.
+How does it really work?
+So how can you make it consistent?
+How much do you need to put it into a straight jacket to get that done?
+I don't know.
+But how do you say you're not the first one asking that question?
+Is the sector for maybe?
+Because when I'm in Canada, I definitely will be having a workshop with the team of what the UCI, because I'm the most guy from the team.
+Yeah.
+And the boss is also really into agents.
+Yeah, exactly. But how do you say, but don't stare yourself lying on agents and many other things, blah, blah, blah.
+To find out of the ways that we could use the eye better in the company.
+It's on one side.
+I don't think you should go from all the places.
+I was from, hey, look at the look like I have like like five prepared to whatsoever from her say low hanging fruits.
+So something that doesn't take too much effort, but that immediately shows the return of the investment of time.
+Because at that moment, that's how you create a platform.
+And the things that are never done, the things that people don't want to do, which I know won't be the one that I've never done because they don't like to do it.
+They don't like to do them, they automate them.
+How do you say, use AI?
+Not all of them are, how do you say from, hey, we should automate this one, but hey, it doesn't make sense to use AI.
+I don't have one. This is just the workflow that you should use, which I use AI to make.
+I like that.
+And some of that will be AI and then things from, hey, and this are new things because it doesn't mean that you need to go all the distance.
+Never do this from, hey, now with AI we can do this, this, and this, which makes better outreach, better accessibility, blah, blah, blah, blah, blah.
+Your frequent questions, you will have AI on top of that one.
+You don't want to hardly say, you have your fuck or whatever, but you can also have your question only that we will try to give you the best answers possible.
+Your Jira ticket is at the short end and you should have AI that goes straight over into the first, the text doubles, you know, that's the first call that we've got.
+And you have analyzed it. I think it is correct.
+You detect that how some data is missing.
+It was, oh, hey, there's some inconsistency or from, hey, you mentioned this report, but, hey, you didn't have the reports.
+You can immediately send a nice word email back to the originator who that probably is still behind.
+Oh, yeah, sure. I forgot to include that attachment. You don't ask it to the attachment to the ticket.
+Yes, thank you. Now everything is complete.
+This time, one of our employees for call types.
+And then here at the whole automatic group that probably already did, oh, by the way, we already automatically fixed it.
+The guy comes in the morning and says, oh, shit, we're already fixed. We're already deployed, you know.
+Nothing is beholden to something like that happen.
+And those tickets, they're never done because, you know, low priority, blah, blah, blah.
+They don't get done.
+That, well, all the tickets that you know, that you want, we do, okay, that they are, we done.
+You get the customer satisfaction or you will get that the customer is from, hey, why are you doing all this?
+Well, actually, we are out of our AI doing those ones.
+So our experts can focus on the more important task.
+You know, easy answer.
+But I mean, if you don't want them, this would be like a long critical patch.
+But how do you say, oh, low priority, low priority, low priority, low impact, low priority, those are never done.
+You can automate them.
+And there's about 90% of them are automatic ones because that's why they are low priority because they are so easy to do.
+And they are quite high customer satisfaction.
+You can also automate, you say, you say, I know, how is your feedback, blah, blah, blah.
+In my opinion, our job really is should be able to be a one shot prompt because it's like they gave us a query and it is implementing this query in Databricks.
+And it's, we should just be able to have like, this is the schema of their database.
+This is the query, right? I'm putting these things here.
+The thing is, is what you know.
+Hey, I don't know if you have a status in Databricks whatsoever.
+Maybe there is, you know, it's okay.
+Databricks, boom, that creates everything.
+Your whole mapping, your whole Databricks, SQL queries, injections, whatever.
+SQL in, after you say, hooks and whatsoever.
+Put procedures or whatever.
+Whatever the whole flow you can automate.
+Easy.
+Not, not, shouldn't be complicated.
+And then it's what you have, is you work from, you just apply your work from.
+And it's just, and if you both can sell that for a good money decision from, hey, I can automate this once here.
+Because I definitely, I definitely want to show my value more through AI than through Databricks certifications.
+It was way better.
+Yeah.
+But it is, it is, it, we don't know.
+So long as you post them, like, you know.
+How do you say, I rather teach people doing this one than, how do you say, doing it?
+You know, figuring out how and where and what to use AI.
+And you see how much value this is.
+He will know how to sell it also.
+So, you know, whatever it is, you make a difference.
+He has context, likely.
+Pretty sure.
+And it's, it's, it's all you get from, yeah, these, these guys, they give it.
+Pretty cool.
+Yeah, I wanted to loss already between the three terminals.
+Yeah.
+But how do you say, this is working on the test.
+I was also the last time I was already almost in a position that I was from, it was because I, you know, it was like YouTube listening or whatever.
+I like more important.
+But it's like, I could have had like two, how do you say, two, how do you say, two problems running at the same moment.
+So, you know, you're reviewing one, you get a result, you take a look at what's going on while you're doing the other problem is running, you know.
+So you have a more active work, or you have multiple ones working.
+For context, this is the investment project thing.
+Yeah.
+That I told it to pretty expensive, simple.
+Yeah.
+Sorry about that.
+Yeah, for it.
+The one that I always show to him soon.
+Yeah.
+And I'm telling it to make a detailed plan of everything to improve.
+Some ideas from a friend that took a look.
+Yeah.
+To make a plan on how to implement everything and I'm telling it to continue implementing and make sure everything works.
+Yeah.
+That you do cursor that is cloud.
+Yeah.
+Yeah.
+Make sure everything works.
+I will run and test it back when I'm home, but it's like, it does it in its own keyboard.
+Yeah.
+Okay.
+Then this one, I'm adding tests to our real work.
+Yeah.
+Also telling it what other tests to can we add, what more can we improve, blah, blah, blah.
+And in the other one, I'm telling it, what are the limitations we should prepare to start preparing it.
+And what you should do is now is also is get gather statistics.
+Look for what statistics you can gather and how you can best represent that one.
+Especially cycle time bug fixing, how many bugs like code change and whatsoever.
+How do you know?
+And if you, most of the time you can track up a little bit of history, analyze get them whatsoever and start showing those things.
+Like this is what they, I does.
+You know, they put all oil on it.
+Always.
+Let's put some oil.
+And then a little bit long.
+I think they have a blue.
+Okay.
+And then we give them another two, three minutes.
+They say the thing is, is what you should start doing is reflect on your rules on the way of working.
+Maybe not now now, but every week you should at least do it once.
+But I think actually doing it as fast as possible is the most advantageous because everything is.
+If something doesn't work at that moment already adjust the rules.
+Don't wait till half the day.
+Don't make up a lot of whatsoever.
+Just adjust the rules.
+Spend the time to fix them and then continue.
+If you get, this is, I think so.
+You need to do it anyway.
+I was really kind of like, I was really kind of like, I was developing and I was, I was developing, I was just updating.
+Remember, remember to do this.
+Yeah.
+But remember is different than rules.
+And that is what cloud is missing.
+Yes.
+Nobody uses co-pilot.
+Sorry.
+Yes.
+Exactly.
+It has memory and rules.
+Two different things.
+I'm not the same.
+That's what I'm trying to tell you.
+You see, memory is your preferences.
+It's how you're doing things.
+And your memory should not be your project definition.
+The project definition should be in your documents, should be wrapped, should be pulled in, whatever.
+Memory is always there.
+It's something, it's some rule that is always there.
+But you want to create rules that for this one do that, for that one do that.
+You want to be more, you want to be more flexible in the rules, but more detailed.
+Yes.
+You don't want to overcome with too much information.
+Exactly.
+If you do everything in memory, you're overloading it.
+Yeah.
+But those things will come.
+I'm pretty sure that cloud will get that also.
+And as I said, some things you better maybe do better in cloud, and you do other things better in another language.
+There's no problem with that either.
+And you only will figure out what works best in one, and then the other one is by doing it.
+By using it, showing it, compare it, try it out.
+And maybe you want to use Vint Cerf also.
+Who cares?
+What is important is that the models that you're using are allowed to be used as models.
+And probably it's also for which models are the best used for which whatever you're doing.
+And sometimes you start even cost efficiently.
+Okay, hey, with this you do better than that model.
+We thought blah, blah, blah.
+There's tokens.
+Because it's cheaper.
+Now, recently, OpenAI is going to release their open stores.
+Or I think they already released it.
+Something, yeah.
+I knew something, but I didn't follow it.
+Supposedly you can run it on 16 gigs of RAM or 64, and the 64 one, it supposedly has the same performance as O3.
+And it's fully open source.
+You can use a commercial.
+I have a computer specifically for it.
+And they're going to release it.
+Just recently, maybe they released it already.
+Yeah, I saw something from OpenAI.
+It's just a title, a big title.
+Okay, to my list.
+Also, one of the most crazy to me recently is the Google one, the Genie 3.
+Yeah, generally it's like a video game of an image.
+I didn't see it.
+Also my list, but I saw the title there.
+But it has a crazy consistency.
+For example, there's an image of a wall, and a guy is kind of faint.
+And then you can move forward, backwards, draw on the wall or something.
+Then go back, enter through that door, go to the other room, come back, and the painting is still there.
+And it's so perfectly crazy.
+And you can move around.
+Here, a lot of those ones are still solutions, or part of the tooling, whatever they're using, but to put you nicely through this.
+A lot of, now I will say they're okay.
+And I'm going to say it's going to be so, so...
+I have to say it's so crazy.
+And every, I'm going to say every day there's more new.
+I have to sit here.
+I'm going to sit here.
+Just having one stroke.
+And put that back in there.
+And put it in there.
+This is the money, huh?
+It takes three!
+Right?
+One more time?
+Oh.
+You know, the end of the paper, the opacity.
+Two more hours, you know, ease, ease, hunger.
+Well, a little bit cheaper, like between nothing, but a few things.
+One.
+Bring it through, though.
+One egg.
+And the next day, one cup of soup.
+That was the only thing.
+Yeah.
+But I have to say, there are so many things that you can show, but what you've already done is so impressive.
+Thank you.
+And I have to say, it's not so much what is done, it's a process to do so, and how everybody can do that.
+Everybody can learn to do those types of observations.
+There is no secret.
+And how do you say, what you should focus on is not, how do you say, doing the automations, you should be teaching people to do those automations.
+And that is also how you should be marketing yourself.
+Yes, you can do all those automations also.
+But I would actually say you should outsource to people here in Paraguay to do the automations.
+And that is the people you will find along the way.
+And maybe you can automate it for everything, but I think you should get overloaded if you try.
+I don't think you should do it.
+But I hate to do it alone.
+Yes.
+Nice one, yes.
+Nice one, yes.
+But what you should...
+Get them open in the middle.
+What is important is to have a right critique level.
+From, hey, inconsistencies, over documentation and everything, you know, it tends to create more than, to tell more than what it needs to say.
+And you want to have condensed information.
+The more condensed, the better.
+I didn't try to get the drill charges.
+It's the most compact way.
+How do you say, don't please whatever, you know, just do blah.
+Because from what I just said, I'm also thinking of making another brush just with one folder that is separate from the color.
+Yeah.
+That has documentation for everything.
+Yeah, yeah.
+Make it very detailed.
+Yeah, the docs one.
+It's like a standard folder.
+So the data can be used to reference the code itself and everything.
+But at least start having it.
+Because then we can use just a folder instead of the code itself.
+Or when we want to explain something to the AI.
+Exactly.
+You don't explain anymore.
+Now you ask the AI, hey, can you explain me this?
+I mean, like, this is what we want to do.
+Make it similar to these examples or whatever.
+For example, but also really, I will do the frequent ask questions.
+You ask the code?
+The code knows.
+Because everything, the whole document, the whole, you will get a project from start to finish with all the changes, the documentation changes, but also the specification blah, blah, blah, blah.
+Everything, including the conversations and that to the stages of the documentation.
+It does everything.
+Where did you have somebody that you can ask, oh, when did you change this one?
+Why did you change this one?
+What was the effect of it?
+It can tell you everything.
+You talk to the code, you talk to the project, the ticket, and what's the matter.
+Now I have the ticket from, oh, yeah, how were we?
+Oh, yeah, we did this, this, this, this, this.
+I have reached my limit again.
+I think it will tell you.
+I think it will tell you, hey, you should go this way.
+Yeah.
+But I was using like three at the same time.
+But.
+That we have organized with Keryan might be worth to pay the two hundred dollars or the ten one hundred.
+Because it gives you.
+Give me the opinions you make this time.
+I think that's in one side is similar to do technical administration.
+That's one of those things.
+I go from I said, I prefer to do the code part way more than the blah, blah, blah part.
+Exactly.
+But that's why Keryan wants to start a yoga thing because that's what she put up.
+And she should say, okay, hey, this is what we're going to spend.
+This is what we tried to reach.
+How do you say?
+How do you say?
+Not that it matters, you know, but the faster that you get to a net positive, you're proving your point already, you know, and from there on, it's just flying.
+And the net positive is, you know, you include a non-salary, you know, once you can pay your own salaries.
+Have fun.
+Well, I think she's going to be very busy now these days with random stuff from getting back far away.
+Yeah, tomorrow or so.
+If she has, if she's chilling and she just drops by, I can guide her a bit on what to do.
+At this moment is more is once I get instructed, finding out what tools this practice, practice, practice.
+And then we need to get a little bit more service and planning.
+Does she have access to Cloud Pro or something?
+No, I think we just need it and make it yet.
+I was going to say, we just use Cloud like I'm doing.
+Because I think she has a question.
+So she's here to explain to some friends and stuff.
+But how does one does not exclude the other?
+Yeah, but on some work, I would go with her to say, take a better account in one and then do the best account in the other.
+Because then you can show compare what's there, you can use it a little more than you do with the three accounts.
+With the motion, we have two minutes.
+And be very careful about privacy.
+Very important.
+But it's like for some person, you ask friends stuff.
+I'm mostly thinking of stupid office shit.
+Yeah.
+You're not going to explain the thing that I was explaining to you here.
+How do you say, making a document, making a design?
+I mean, how do you say deeper?
+Because they're only about a deep, deep information about this and this and this topic of whatsoever.
+Yeah, that is not so high profile.
+And just simple things.
+And especially in where they are, they're interested in the definitely help.
+Is this article correct or what's there? There are also a question from it.
+Yes.
+And this is what they call the Vietnam.
+Because the Chinese like this, this bit.
+Yeah.
+But I'll see if you can make the project that I was making presentable first building so you can show it to Gaston.
+Or I don't know.
+Let me know, because I think, how do you say, we'll talk to someone to do it.
+How are you doing?
+What you're doing.
+That you made that one.
+By the time I immediately told you to show it to his friends.
+Because I think there are things that you can help each other with.
+I don't know how much his friend is an AI.
+He's also a big proponent.
+Maybe he's looking for a similar kind of like minded people.
+My idea for this one is literally see what money can throw at AI and see if it can pay itself.
+It can be thrown way more money by somebody with big pockets and see what extra they can get.
+Perfect.
+But also if you need money for those things, I'm happy.
+For me it's like I don't need because I have spending money.
+But like once I have done it and it is successful and it gets me like at least a hundred bucks or something.
+Then I'll be like, hey, I made this, it's working. If you want to use it also, it's here.
+But very fast, how do you say, it's a negligible cost.
+That's also why I'm like me.
+How fast that will come, I don't know.
+But that is how I see it.
+It will be just, okay, part two in business and like paying electricity.
+Once I'm running it, once it's presentable, I'll send you the link so you can take a look.
+If you want to throw money at it, it's always welcome.
+No, if you have a someone with hardware or whatever, or server account or whatever.
+If you need someone with, how do you say, calculate the cost, you know, it's from, hey, it doesn't make sense to run things.
+But I think it makes a lot of sense to run a lot of different types of things that I wanted to show.
+But from that I would just have an online cloud server running my AI.
+Exactly, all the tools, web pages or whatever.
+I don't know how and when, how you host those things and what the cost are of those things.
+But you likely want to run a lot of them.
+And how do you say, you have like services online that are like so crap, you know, no, no, nice API on that one.
+They're so easy to copy, to make better.
+And one thing that would be nice is like a credit card that we could charge to for the websites, because I'm making the website for me and Kirian that I already made on his initial version.
+Yeah, yeah. So you have a credit card too, which it is.
+No, I've got a credit card to pay for, to hosting.
+Yeah, exactly.
+May I take a look with mum, how you can set that up?
+But because also for Sonia's website and Gabalaz's global website and Sonia's other friend's website.
+Yeah, but topic mum, there shouldn't be a problem.
+I mean, and in my point of view, but you know, I don't know what the spending limit should be and whatsoever.
+I think websites are either way to ship us back to run.
+I know, but you know, hey, but you won't have a thousand dollar spending limit or even higher spending limit on that one or lower one.
+I, you know, it's just from, for normal billing. I don't know. Hey, those things.
+And I would also not have, not have it be one of a real credit cards to make just a new one.
+That's why you want to have one that you cannot go negative.
+Those things are possible. How to do that? I don't know.
+Same. But I know that they're possible.
+And yeah, how do you say, and you want to have it run as much as those things automatically because it's fucking annoying, you know, when your account runs out or whatever.
+How do you say set the setup as many as possible in my point of view?
+Some things and also to, you know, how to, how to monetize them being donations.
+You know, you can do some donations or not. You can do some.
+You should have like always for free and what's left, but you can have like, how do you say, commercial license or whatever.
+For example, for some of us friends, definitely make a new website for their Kabbalah Center, make it modern with everything nice.
+And then all of the people that are 50, which are nice possible clients.
+The thing is, how do you say, it's sometimes from, hey, it's not from, hey, Shelby, blah, blah, blah.
+Hey, I took a look on the site from how to say, and this is how you can do it.
+You can make it like this. And yeah, it takes, I want to tell that, yeah, this is just, you know, it takes a lot more time to really finish it up.
+But you know, in two days, I say, we will have a nice finished product.
+It's like, yeah, that was the finished product. But let's not think that you did what today's still on it, you know, that you don't have to make it.
+How do you say that is already like fuck cheaper, even if it takes you two to five minutes.
+Yeah.
+Yeah, but the thing is, it's one side doing those things that's making you money already.
+But the real money is actually should be in teaching people how to do that.
+That should be the one that brings in the money.
+And that's from, hey, but you know, you've charged that amount of money for your, how do you say, doing work and then for explaining your, your, your charging 10 times more.
+Yeah.
+I cannot do those things always. We are all classed with this amount of people.
+Look up the normal prices on that one and the normal arguments to talk on those things.
+And it's from, hey, I give you this course. That person is at that moment, double his value.
+It's like, where did this happen? You know, where was this possible?
+I mean, I say that this is where I rather invest in.
+I'd say buying a piece of gold, I mean, how do you say yes, here is a good investment in what's left, but anywhere else, I mean, you're never going to get that eternal investment.
+Yeah.
+It's a dissolution. And why would you want to live anywhere else? And then here, well, maybe another one counts.
+And maybe you're going to do that one all year. I'm really thinking all like renting like for three months, like in a warmer place, a house, you know, you want to go by.
+Great. Not also great.
+Definitely.
+Well, maybe we're dropping by from, oh, you're living now in a warmer country now, all three, three months coming to visit.
+There's always no Airbnbs and rooms. Portable screens are cheap.
+Exactly. I say you're really getting into the time. That's really easy to actually have a virtual set up and you can work from anywhere.
+I didn't do that now because, you know, was there a family or whatever? And still, when you don't have a house where you live in the hotel, it's different.
+That screen, that photo screen is like 70,000 or something.
+I mean, great. I mean, I would say even if you have like a computer world with screens broken, I would say, okay, one more screen, one more thing.
+You're all really nice. Just, you know, the power line, you have to say.
+If you are working seriously, you are not in a cafe without, you are in a desk with...
+Yeah, but the thing is, working traveling, it doesn't work. You want to be at a place at some moment, you know, stay at the next stage.
+And that's why you stay for like six, one year instead of just a few weeks. That's why you stay a year instead of just a weekend.
+Yeah, it worked like a few months or whatever.
+Okay, well...
+But I would say to the top there, in Argentina, that was really, like, yeah, nice. But nice that I've been there, I would swear, but again, it's dry, you know, from my skin and everything.
+For me, at least, I'm way better set up for being able to work, because you need to have a better desk and better monitors and be able to work with good internet.
+But I'm pretty sure that you can just pay for a better place there.
+I mean, if you want to stay for a longer time, I always use to be made. And you want to be in a place where nobody is.
+I mean...
+But definitely, I think you will be really nice. It's summer, it's winter here, and you go to a nice, warm beach.
+I mean, I'm really taking on it. It's like, why would I be here, getting cold?
+Yeah, go to a beach, eat some tangrejos.
+But let's see here next year. This year, winter is over, already.
+Back time.
+Crazy times.
+For me, it's the...
+I say, the land is so fertile, the opportunity is so high.
+I mean, there is money in that one.
+Can you fill out some quick thesis ideas of just random AI?
+Just propose and leave them, because that's the last thing I have yet.
+And for now, the idea is something to do with AI for QA documentation, which should be fine.
+Yeah, what you did, what you're not now doing, or what's the word?
+But like, if I'm doing something way more hardcore, it would be maybe more interesting.
+The thing is this...
+How do you say it? When I was working with the migration that we did, when we really went to mathematical principles, yeah?
+That code has been written already for 30 years.
+And, hey, it works. But don't think too hard of it. Don't ask too hard questions, because we know it works.
+We don't know how it works.
+And that has been for the last 30 years.
+Now, I had in two weeks, or actually in a few days,
+how do you say, we have sharpened the definition that we now really have clear definition.
+What happens exactly on what moment, what transformations, blah, blah, blah, blah, blah, blah.
+Now, the definition is really clear. Now, we have also how we can, for example, convert between volume and rate,
+and why we can do that in certain situations and not in other situations.
+And, for example, a volume, that is the time times the rate.
+So, you can always, on a fixed interval, you can always go from a volume to a rate.
+Because they are the same, how do you say, they are related to each other, and the interval is fixed.
+So, you can then also convert from one to others. There are conversions that you can do.
+And now, how do you say, we have really specific way how we can go from, for example, from a 10 minute interval to a 15 minute interval.
+Which you can't, but we can. Because we go from 10 to 5 to 15.
+And there are certain things that you need to take into account when you go from volume to rate, and all those things are now really, really clear.
+Correctly in specifications, and now the coat is really following that one.
+I still need to really, how do you say, do a final step on that one.
+But it never has been defined so clear that it has ever been, the coat has been there.
+The difference is now like, how do you say, now it wasn't made in gold, and we are slightly polishing it still to make it even more shiny.
+And it was old coat?
+It's like minus. It's like AI touch touch to them, it changes into cold.
+Especially for certain things, it's scary even.
+You know, my best story, yeah.
+Yeah, yeah.
+So yeah.
+What was the story for Midas?
+Turned into gold, but all his love done, all his loved ones.
+Yeah.
+His food, everything.
+What does that mean for AI?
+How do you say, I would say, I don't think so.
+The thing is, you shouldn't be too, getting too greedy.
+Because that was Midas.
+I would say, that's why he got the curse.
+Yes, you should, on one side, you know, appreciate how you say, how everything becomes unclear, everything becomes more organized.
+And as a result, you can automate things much more easier.
+You're going to get, how you say, clear, not close to the two beyond, that you can talk to whatever and whatsoever, because it knows through who you're talking and everything is AI.
+It's actually, things are happening because everything is AI, you walk through the door, the door opens there, because the door knows that you want to go through the door.
+How hard would it be?
+It's coming, it's coming.
+That's right.
+It's going to take some time.
+But how you say, you're not thinking anymore, that's not possible, you're thinking from, yeah, of course.
+Time, that's the only one that we're going to discuss, is from when it will happen.
+Of course, the door goes up.
+As you go with sound effects, you know, now you go, you automatically go up without sound effects.
+But I mean, upstairs, if one of those, you know, agents that, you know, always running there, if, because we're going to put some satellites, some code for a solar satellite, things.
+And if there's a noise and people are sleeping, you know, there's a truth, it knows that somebody is sleeping, you know, somebody is sleeping.
+Get out.
+You know, that is, in that way, Shaska sometimes a little bit louder, or Killion, you know, I'm going to have so much fun with those things.
+But yeah, thinking of what to do for thesis, so I'm done with uni also.
+Oh, for thesis.
+Oh, sorry, more on QA or what?
+That is the current one.
+But if I'm doing way more things with AI, definitely I will do something else.
+What?
+Quality assurance?
+Quality assurance, huh?
+The better idea is, this is an agent that will receive the project and speed out the documentation explaining everything.
+I have to say, I think it's from, hey, what you can do is not just QA.
+You do, you make sure that everything is covered with unit tests based on the project specification unit test.
+But then it also does certain ratings automatically, because there are many ways how you can rate a project.
+And then also give automatically advice how to improve, which points to improve and what are the best things to improve.
+Which I think you will do now for your project, but you said also for your QA, why not?
+Yeah.
+But it has to be set up like a workflow.
+Sorry?
+That is a workflow, you know, you have a project, everything comes out of it.
+Yeah, the thesis is just a workflow then.
+Sorry?
+The thesis is just a workflow.
+How you can automate that workflow already and then improve the quality of the code in a dramatic way?
+Yeah, I think that's good enough.
+How do you say, the thing is, it's the uncomclusion, this is just QA, or the same principle, it can be applied to many steps from the project.
+You know, we kept it outside of the scope of our thesis.
+Focus on what you're doing, and do it as best as possible.
+And again from, hey, yeah, we can also integrate in, you know, automatic ticketing, ticket shipping, shooting it, or, you know, automatic failure reporting, whatever.
+Which would be done like this, like this.
+We didn't implement it, but that is how you say, left to the reader.
+We focused on this workflow.
+You know, show them all the things that can be done, and it's easy to do those also, but it's just not part of this thesis.
+Like also with Emilia, we were trying to also focus on this, but I think this year we'll be too busy with our travel.
+We're studying, yeah?
+This year we'll be too busy with travel.
+Yeah.
+But to start taking a look again on the thesis with Emilia.
+Yeah, we really have to talk tomorrow, or I'll say tomorrow, Monday.
+So, keep a little bit of patience still.
+We'll have it all covered.
+Round and three.
+Round and three.
+Yeah, right.
+This is so great.
+I think it's a great time, because it's already for you.
+Yeah, I...
+You start either?
+No, at home.
+We have work tomorrow.
