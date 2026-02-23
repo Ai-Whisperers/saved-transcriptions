@@ -1,0 +1,4 @@
+METADATA: Provider=Local, Model=medium
+FILE: audios_john/Dec 17, 1.02 PM​.m4a
+----------------------------------------
+ coloredivisibleил
